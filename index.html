@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Tic Tac Toe</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div id="game-container">
+			<div id="info">
+				<p></p>
+				<ul>
+					<li>Player: <span id="score"></span></li>
+					<li>Bot: <span id="bscore"></span></li>
+					<li>Tie: <span id="tie"></span></li>
+				</ul>
+			</div>
+			<div id="game-board">
+				<div class="cell top left" id="spot0"><img id="image0"src="" alt=""></div>
+				<div class="cell top" id="spot1"><img id="image1"src="" alt=""></div>
+				<div class="cell top right" id="spot2"><img id="image2"src="" alt=""></div>
+				<div class="cell left" id="spot3"><img id="image3"src="" alt=""></div>
+				<div class="cell" id="spot4"><img id="image4"src="" alt=""></div>
+				<div class="cell right" id="spot5"><img id="image5"src="" alt=""></div>
+				<div class="cell bot left" id="spot6"><img id="image6"src="" alt=""></div>
+				<div class="cell bot" id="spot7"><img id="image7"src="" alt=""></div>
+				<div class="cell bot right" id="spot8"><img id="image8"src="" alt=""></div>
+			</div>
+			<div id="buttons">
+				<button id="btn-restart">Play Again</button>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
